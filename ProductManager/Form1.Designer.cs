@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            textBox1 = new TextBox();
-            button1 = new Button();
+            txtProductName = new TextBox();
+            btnAddProduct = new Button();
             SuspendLayout();
             // 
             // label1
@@ -42,29 +42,29 @@
             label1.TabIndex = 0;
             label1.Text = "Product Name";
             // 
-            // textBox1
+            // txtProductName
             // 
-            textBox1.Location = new Point(149, 81);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 1;
+            txtProductName.Location = new Point(149, 81);
+            txtProductName.Name = "txtProductName";
+            txtProductName.Size = new Size(100, 23);
+            txtProductName.TabIndex = 1;
             // 
-            // button1
+            // btnAddProduct
             // 
-            button1.Location = new Point(94, 223);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 65);
-            button1.TabIndex = 2;
-            button1.Text = "Add Product";
-            button1.UseVisualStyleBackColor = true;
+            btnAddProduct.Location = new Point(94, 223);
+            btnAddProduct.Name = "btnAddProduct";
+            btnAddProduct.Size = new Size(112, 65);
+            btnAddProduct.TabIndex = 2;
+            btnAddProduct.Text = "Add Product";
+            btnAddProduct.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(325, 402);
-            Controls.Add(button1);
-            Controls.Add(textBox1);
+            Controls.Add(btnAddProduct);
+            Controls.Add(txtProductName);
             Controls.Add(label1);
             Name = "Form1";
             Text = "Product Manager";
@@ -76,7 +76,7 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
-        private Button button1;
+        private TextBox txtProductName;
+        private Button btnAddProduct;
     }
 }
