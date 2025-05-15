@@ -11,5 +11,15 @@ namespace ProductManager
         {
             MessageBox.Show("Hello Source Control!");
         }
+
+        private void btnAddProduct_Click(object sender, EventArgs e)
+        {
+            Product p = new()
+            {
+                Name = txtProductName.Text,
+            };
+
+            MessageBox.Show("Saved to database! (not yet but we will!");
+        }
     }
 }
