@@ -35,6 +35,12 @@ namespace ProductManager
         public double MSRP { get; set; }
 
         /// <summary>
+        /// The price we are selling the product to the
+        /// consumer
+        /// </summary>
+        public double SalesPrice { get; set; }
+
+        /// <summary>
         /// The number of units of this product in stock
         /// </summary>
         public int Quantity { get; set; }
