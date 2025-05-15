@@ -45,7 +45,6 @@ namespace ProductManager
         /// </summary>
         public int Quantity { get; set; }
 
-        // comment here
 
         #region Fully Implemented Property sample
         //// Fully implemented C# property

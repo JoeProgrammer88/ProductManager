@@ -14,7 +14,6 @@ namespace ProductManager
 
         private void btnAddProduct_Click(object sender, EventArgs e)
         {
-            // comment there
             Product p = new()
             {
                 Name = txtProductName.Text,
