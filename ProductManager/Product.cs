@@ -28,6 +28,18 @@ namespace ProductManager
         /// </summary>
         public required string Name { get; set; }
 
+        /// <summary>
+        /// The price the manufacturer suggests we sell
+        /// the product at (Manufacturer's suggested retail price)
+        /// </summary>
+        public double MSRP { get; set; }
+
+        /// <summary>
+        /// The number of units of this product in stock
+        /// </summary>
+        public int Quantity { get; set; }
+
+
         #region Fully Implemented Property sample
         //// Fully implemented C# property
         //private int _id;
